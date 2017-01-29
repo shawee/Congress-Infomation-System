@@ -1,0 +1,263 @@
+body{
+/*    overflow-x: hidden;*/
+    
+    background-color: rgb(243,243,243);
+}
+
+.webTitle{
+    z-index: 1000;
+    background-color: white;
+    margin-left: -15px;
+    padding-left: 10px;
+    padding: 10px;
+    margin: px;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    position: fixed;
+    height: 45px;
+}
+.webTitle img{
+    width: 80px;
+}
+
+hr{
+    border-top: 1px solid #8c8b8b;
+}
+
+.nav_button{
+    background-color: white;
+    border: none;
+    float:left;
+}
+.tab-content{
+    padding: 18px;
+}
+#content_tab_table{
+    padding: 0px
+}
+/*navigation*/
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+        background-color: rgb(61,61,61);
+        color: lightgray;
+    }
+.nav-pills >li >a{
+    background-color: transparent;
+    color: lightgray;
+}
+.nav-pills >li >a:hover{
+    background-color: transparent;
+}
+
+.nav-pills >li{
+    padding: 5px;
+    font-size: 15px;
+}
+
+.nav-pills >li >a>span{
+    padding-right: 10px;
+}
+.navbar{
+    top: 45px;
+    padding: 0px;
+    width: inherit;
+    height: 100%;
+    background: rgb(61,61,61);
+    z-index: 1000;
+    
+}
+#sidebar_wrapper{
+
+}
+
+.tab-content{
+    padding: 0px;
+}
+#congress_infomation_wrapper{
+    padding-top: 45px;
+    width: 100%;
+/*    position: absolute;*/
+/*    padding: 15px;*/
+/*    margin-right: -200px;*/
+}
+
+.legis_all_tabs{
+    padding: 10px;
+}
+/*tab table*/
+.table_heading{
+    background-color: rgb(245, 245, 245);
+    padding-top: 5px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+
+.table_container{
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+table.infotable tr:hover td{
+    background-color: rgb(245, 245, 245);
+}
+
+.tab-content > .tab-pane > .row{
+    margin: 0;
+}
+
+.tab-content{
+/*    margin-top: 30px;*/
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.legis_table_inner, .carousel-inner{
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+
+.partyIcon{
+    width: 20px;
+    height: 20px;
+    
+}
+.chamberIcon{
+    width: 20px;
+    height: 20px;
+}
+
+.infotable{
+/*    width: 100%;*/
+    background-color: white;
+    margin: 0;
+}
+
+/*details*/
+.social_img{
+    max-height: 35px;
+}
+
+
+#legisDetail_heading{
+    padding-bottom: 10px;
+}
+
+.fa-star{
+    color: yellow;
+    text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+}
+
+#billDetailsPane{
+    padding: 15px;
+}
+.legImg_div{
+    padding: 0px;
+}
+
+.legis_photo{
+    width: 100%;
+    max-width: 200px;
+    max-height: 220px;
+}
+
+
+.detail_pane{
+    padding: 15px;
+}
+
+.detail_pane table td{
+    vertical-align: top;
+}
+
+#detailsPane{
+    overflow: scroll;
+}
+#detailsPane table{
+    overflow: auto;
+    table-layout: fixed;
+}
+.pdfObj{
+    width: 100%;
+    height: 390px;
+}
+
+
+/*favorite*/
+.line_img{
+    width: 30px;   
+}
+
+.bill_star{
+    
+}
+.legis_star{
+    
+}
+
+/*responsive design*/
+.tab-pane{
+    min-width: 260;
+}
+.toggled #nav_wrapper{
+        display: none;
+    }
+.toggled{
+        padding-left: 0px;
+    }
+.content_wrapper{
+/*    min-width: 700px;*/
+/*    padding: 0px;*/
+}
+
+.detail_center{
+    text-align: center;
+}
+tr{
+    text-align: center;
+}
+td, th{
+    text-align: left;
+}
+div .table{
+
+/*    overflow:auto;*/
+/*    table-layout:fixed;*/
+
+}
+.table{
+}
+@media (max-width: 768px){
+    body{
+/*        font: 8px;*/
+    }
+    .nav_letter{
+        display: none;
+    }
+    .nav-tabs li{
+        width: 80px;
+        font-size: 13px;
+    }
+    .nav-tabs li a{
+        padding: 6px;
+    }
+/*
+    .content{
+        padding-left: 60px;
+    }
+*/
+    .toggled #nav_wrapper{
+        display: none;
+    }
+    .toggled{
+        padding-left: 0px;
+    }
+}
+@media (max-width:@screen-sm){
+    body{
+        font-size: 14px;
+    }
+}
